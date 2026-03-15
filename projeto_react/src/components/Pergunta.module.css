@@ -1,0 +1,31 @@
+.section_perguntas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacamento-medio);
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+.texto_tipo {
+  font-size: var(--fonte-tamanho-base);
+  text-align: center;
+}
+
+.texto_pergunta {
+  color: var(--cor-texto-acerto);
+  font-size: var(--fonte-tamanho-maior);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .texto_pergunta {
+    font-size: var(--fonte-tamanho-base);
+    text-align: center;
+  }
+
+  .texto_tipo {
+    font-size: var(--fonte-tamanho-base);
+    text-align: center;
+  }
+}
