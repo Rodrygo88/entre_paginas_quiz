@@ -1,0 +1,208 @@
+[
+  {
+    "tipo": "De qual livro é o personagem?",
+    "pergunta": "Capitu",
+    "opcoes": [
+      "Memórias Póstumas de Brás Cubas",
+      "Helena",
+      "Dom Casmurro",
+      "Quincas Borba"
+    ],
+    "resposta": "Dom Casmurro"
+  },
+  {
+    "tipo": "De qual livro é o personagem?",
+    "pergunta": "Raskólnikov",
+    "opcoes": [
+      "O Idiota",
+      "Anna Kariênina",
+      "Crime e Castigo",
+      "Os Irmãos Karamázov"
+    ],
+    "resposta": "Crime e Castigo"
+  },
+  {
+    "tipo": "De qual livro é o personagem?",
+    "pergunta": "Emma Bovary",
+    "opcoes": [
+      "Madame Bovary",
+      "O Vermelho e o Negro",
+      "A Educação Sentimental",
+      "Anna Kariênina"
+    ],
+    "resposta": "Madame Bovary"
+  },
+  {
+    "tipo": "De qual livro é o personagem?",
+    "pergunta": "Santiago",
+    "opcoes": [
+      "O Sol Também se Levanta",
+      "As Vinhas da Ira",
+      "Por Quem os Sinos Dobram",
+      "O Velho e o Mar"
+    ],
+    "resposta": "O Velho e o Mar"
+  },
+  {
+    "tipo": "De qual livro é o personagem?",
+    "pergunta": "Jean Valjean",
+    "opcoes": [
+      "Os Três Mosqueteiros",
+      "Os Miseráveis",
+      "Germinal",
+      "O Conde de Monte Cristo"
+    ],
+    "resposta": "Os Miseráveis"
+  },
+  {
+    "tipo": "De qual livro é a sinopse?",
+    "pergunta": "Após cometer um _____, um estudante passa a enfrentar um intenso conflito _____ e filosófico.",
+    "opcoes": ["O Processo", "O Estrangeiro", "Crime e Castigo", "O Idiota"],
+    "resposta": "Crime e Castigo"
+  },
+  {
+    "tipo": "De qual livro é a sinopse?",
+    "pergunta": "Um homem acorda transformado em um enorme _____ e passa a ser tratado como um fardo pela própria _____.",
+    "opcoes": [
+      "Frankenstein",
+      "O Estrangeiro",
+      "A Metamorfose",
+      "O Retrato de Dorian Gray"
+    ],
+    "resposta": "A Metamorfose"
+  },
+  {
+    "tipo": "De qual livro é a sinopse?",
+    "pergunta": "Um jovem pobre chega ao _____ e testemunha a degradação social e moral em uma habitação coletiva.",
+    "opcoes": ["Capitães da Areia", "São Bernardo", "O Cortiço", "Vidas Secas"],
+    "resposta": "O Cortiço"
+  },
+  {
+    "tipo": "De qual livro é a sinopse?",
+    "pergunta": "Um homem é subitamente acusado por um _____ desconhecido e tenta compreender um sistema judicial absurdo.",
+    "opcoes": ["O Castelo", "Crime e Castigo", "O Processo", "O Estrangeiro"],
+    "resposta": "O Processo"
+  },
+  {
+    "tipo": "De qual livro é a sinopse?",
+    "pergunta": "Um narrador conta sua própria história depois de _____, revisitando sua vida com ironia e crítica social.",
+    "opcoes": [
+      "Esaú e Jacó",
+      "Dom Casmurro",
+      "Memórias Póstumas de Brás Cubas",
+      "Quincas Borba"
+    ],
+    "resposta": "Memórias Póstumas de Brás Cubas"
+  },
+  {
+    "tipo": "De qual autor é a frase?",
+    "pergunta": "O homem nasce livre, e por toda parte encontra-se acorrentado.",
+    "opcoes": [
+      "Montesquieu",
+      "Jean-Jacques Rousseau",
+      "John Locke",
+      "Voltaire"
+    ],
+    "resposta": "Jean-Jacques Rousseau"
+  },
+  {
+    "tipo": "De qual autor é a frase?",
+    "pergunta": "Deus está morto.",
+    "opcoes": [
+      "Arthur Schopenhauer",
+      "Søren Kierkegaard",
+      "Friedrich Nietzsche",
+      "Immanuel Kant"
+    ],
+    "resposta": "Friedrich Nietzsche"
+  },
+  {
+    "tipo": "De qual autor é a frase?",
+    "pergunta": "Só sei que nada sei.",
+    "opcoes": ["Heráclito", "Aristóteles", "Platão", "Sócrates"],
+    "resposta": "Sócrates"
+  },
+  {
+    "tipo": "De qual autor é a frase?",
+    "pergunta": "Ser ou não ser, eis a questão.",
+    "opcoes": [
+      "Christopher Marlowe",
+      "John Milton",
+      "William Shakespeare",
+      "Lord Byron"
+    ],
+    "resposta": "William Shakespeare"
+  },
+  {
+    "tipo": "De qual autor é a frase?",
+    "pergunta": "Todas as famílias felizes se parecem; cada família infeliz é infeliz à sua maneira.",
+    "opcoes": [
+      "Fiódor Dostoiévski",
+      "Liev Tolstói",
+      "Anton Tchekhov",
+      "Ivan Turguêniev"
+    ],
+    "resposta": "Liev Tolstói"
+  },
+  {
+    "tipo": "De qual autor é o livro?",
+    "pergunta": "Grande Sertão: Veredas",
+    "opcoes": [
+      "Graciliano Ramos",
+      "Euclides da Cunha",
+      "João Guimarães Rosa",
+      "Jorge Amado"
+    ],
+    "resposta": "João Guimarães Rosa"
+  },
+  {
+    "tipo": "De qual autor é o livro?",
+    "pergunta": "Capitães da Areia",
+    "opcoes": [
+      "José Lins do Rego",
+      "Rachel de Queiroz",
+      "Jorge Amado",
+      "Graciliano Ramos"
+    ],
+    "resposta": "Jorge Amado"
+  },
+  {
+    "tipo": "De qual autor é o livro?",
+    "pergunta": "Vidas Secas",
+    "opcoes": [
+      "Jorge Amado",
+      "Euclides da Cunha",
+      "José Lins do Rego",
+      "Graciliano Ramos"
+    ],
+    "resposta": "Graciliano Ramos"
+  },
+  {
+    "tipo": "De qual autor é o livro?",
+    "pergunta": "O Estrangeiro",
+    "opcoes": [
+      "Simone de Beauvoir",
+      "Albert Camus",
+      "Franz Kafka",
+      "Jean-Paul Sartre"
+    ],
+    "resposta": "Albert Camus"
+  },
+  {
+    "tipo": "De qual autor é o livro?",
+    "pergunta": "O Retrato de Dorian Gray",
+    "opcoes": ["Bram Stoker", "Mary Shelley", "Oscar Wilde", "H. G. Wells"],
+    "resposta": "Oscar Wilde"
+  },
+  {
+    "tipo": "De qual autor é a frase?",
+    "pergunta": "Tarde te amei, ó beleza tão antiga e tão nova, tarde te amei.",
+    "opcoes": [
+      "Jean-Jacques Rousseau",
+      "São Tomás de Aquino",
+      "Santo Agostinho",
+      "Blaise Pascal"
+    ],
+    "resposta": "Santo Agostinho"
+  }
+]
