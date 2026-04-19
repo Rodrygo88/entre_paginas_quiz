@@ -21,7 +21,7 @@ function App() {
   ]);
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/data/perguntas.json`)
+    fetch("/entre_paginas_quiz/data/perguntas.json")
       .then((res) => res.json())
       .then((data) => {
         const sorteada = data[Math.floor(Math.random() * data.length)];
