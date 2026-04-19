@@ -1,24 +1,277 @@
 [
   {
     "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "Qual a diferença entre uma velocidade medida em Mbps e MBps? Qual delas é mais comumente usada?",
+    "opcoes": [
+      "Mbps = megabits por segundo. MBps = megabytes por segundo (1 byte = 8 bits). Mbps é mais usado em planos de Internet.",
+      "MBps é menor que Mbps.",
+      "São a mesma coisa, apenas nomes diferentes.",
+      "Mbps é usado apenas em redes sem fio."
+    ],
+    "resposta": "Mbps = megabits por segundo. MBps = megabytes por segundo (1 byte = 8 bits). Mbps é mais usado em planos de Internet."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "O que é um ISP (Internet Service Provider)?",
+    "opcoes": [
+      "Fabricante de roteadores e switches.",
+      "Empresa responsável apenas pela distribuição de endereços IP.",
+      "Empresa que fornece acesso à Internet, conectando usuários à rede global por meio de tecnologias como fibra óptica, cabos ou rádio.",
+      "Desenvolvedor dos protocolos TCP/IP."
+    ],
+    "resposta": "Empresa que fornece acesso à Internet, conectando usuários à rede global por meio de tecnologias como fibra óptica, cabos ou rádio."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
     "pergunta": "O que são redes de computadores?",
     "opcoes": [
-      "São sistemas que conectam dois ou mais dispositivos para compartilhar dados, recursos e serviços por meio de cabos, fibra ótica ou wireless.",
-      "São programas instalados em um único computador para melhorar seu desempenho interno.",
       "São dispositivos físicos usados exclusivamente para armazenar arquivos locais sem conexão externa.",
-      "São sistemas operacionais responsáveis apenas pela interface gráfica do usuário."
+      "São sistemas operacionais responsáveis apenas pela interface gráfica do usuário.",
+      "São sistemas que conectam dois ou mais dispositivos para compartilhar dados, recursos e serviços por meio de cabos, fibra ótica ou wireless.",
+      "São programas instalados em um único computador para melhorar seu desempenho interno."
     ],
     "resposta": "São sistemas que conectam dois ou mais dispositivos para compartilhar dados, recursos e serviços por meio de cabos, fibra ótica ou wireless."
   },
   {
     "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "A Internet possui um dono?",
+    "opcoes": [
+      "Apenas grandes corporações podem acessá-la.",
+      "É propriedade de um governo específico.",
+      "Não, é uma rede descentralizada formada por várias redes interconectadas que utilizam protocolos abertos como TCP/IP.",
+      "Sim, pertence a uma única empresa global."
+    ],
+    "resposta": "Não, é uma rede descentralizada formada por várias redes interconectadas que utilizam protocolos abertos como TCP/IP."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
     "pergunta": "Diferenças entre um computador comum e um servidor na rede.",
     "opcoes": [
-      "Um computador comum é para uso pessoal, com recursos multimídia, executa tarefas variadas por poucas horas e serve um usuário só. Já o servidor tem hardware robusto, sem multimídia desnecessária, e atende múltiplos usuários com tarefas específicas como hospedar sites ou bancos de dados.",
-      "Não existe diferença, ambos possuem exatamente as mesmas funções e capacidades.",
       "Servidores são usados apenas para jogos, enquanto computadores comuns são usados apenas para edição de texto.",
-      "Computadores comuns sempre possuem mais capacidade de processamento do que servidores."
+      "Computadores comuns sempre possuem mais capacidade de processamento do que servidores.",
+      "Não existe diferença, ambos possuem exatamente as mesmas funções e capacidades.",
+      "Um computador comum é voltado para uso pessoal, executa diversas tarefas e geralmente atende um único usuário. Já o servidor possui hardware mais robusto, é otimizado para alta disponibilidade e atende múltiplos usuários oferecendo serviços como hospedagem de sites e bancos de dados."
     ],
-    "resposta": "Um computador comum é para uso pessoal, com recursos multimídia, executa tarefas variadas por poucas horas e serve um usuário só. Já o servidor tem hardware robusto, sem multimídia desnecessária, e atende múltiplos usuários com tarefas específicas como hospedar sites ou bancos de dados."
+    "resposta": "Um computador comum é voltado para uso pessoal, executa diversas tarefas e geralmente atende um único usuário. Já o servidor possui hardware mais robusto, é otimizado para alta disponibilidade e atende múltiplos usuários oferecendo serviços como hospedagem de sites e bancos de dados."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "Explique as diferenças entre uma PAN, uma LAN e uma WAN.",
+    "opcoes": [
+      "PAN é maior que WAN.",
+      "Todas têm o mesmo alcance geográfico.",
+      "LAN só funciona sem fio.",
+      "PAN: rede pessoal de curto alcance (ex: Bluetooth). LAN: rede local em uma área limitada como casa ou empresa. WAN: rede de longa distância que cobre grandes regiões, como a Internet."
+    ],
+    "resposta": "PAN: rede pessoal de curto alcance (ex: Bluetooth). LAN: rede local em uma área limitada como casa ou empresa. WAN: rede de longa distância que cobre grandes regiões, como a Internet."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "Qual a diferença entre uma rede comutada por circuitos e uma comutada por pacotes?",
+    "opcoes": [
+      "Circuitos são sempre mais rápidos que pacotes.",
+      "Comutada por circuitos: estabelece um caminho dedicado fixo durante toda a comunicação. Comutada por pacotes: divide os dados em pacotes que podem seguir caminhos diferentes até o destino.",
+      "Pacotes usam apenas conexões sem fio, circuitos apenas com fio.",
+      "Não há diferença técnica entre os dois tipos."
+    ],
+    "resposta": "Comutada por circuitos: estabelece um caminho dedicado fixo durante toda a comunicação. Comutada por pacotes: divide os dados em pacotes que podem seguir caminhos diferentes até o destino."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "Que tipo de vantagens a Internet possui em relação à rede pública de telefonia (PSTN)?",
+    "opcoes": [
+      "A Internet requer circuitos dedicados como a PSTN.",
+      "A Internet transmite apenas voz, enquanto a PSTN transmite dados.",
+      "Permite múltiplos usos simultâneos da banda (voz, vídeo e dados), maior flexibilidade, melhor aproveitamento da rede e maior tolerância a falhas com rotas alternativas.",
+      "A PSTN é mais rápida que a Internet."
+    ],
+    "resposta": "Permite múltiplos usos simultâneos da banda (voz, vídeo e dados), maior flexibilidade, melhor aproveitamento da rede e maior tolerância a falhas com rotas alternativas."
+  },
+  {
+    "tipo": "Tópico 1: Introdução às Redes",
+    "pergunta": "O que é um host? Cite exemplos de hosts.",
+    "opcoes": [
+      "Equipamentos que não possuem endereço IP.",
+      "Host é qualquer dispositivo conectado a uma rede que possui um endereço IP e pode enviar e/ou receber dados. Exemplos: computador, smartphone e servidor.",
+      "Dispositivos que apenas recebem dados, nunca enviam.",
+      "Apenas servidores web são considerados hosts."
+    ],
+    "resposta": "Host é qualquer dispositivo conectado a uma rede que possui um endereço IP e pode enviar e/ou receber dados. Exemplos: computador, smartphone e servidor."
+  },
+  {
+    "tipo": "Tópico 2: Topologias Físicas e Lógicas",
+    "pergunta": "Uma empresa está projetando sua rede para um escritório com 50 computadores distribuídos em três andares. Eles querem uma rede rápida, confiável e fácil de expandir. Qual topologia você recomendaria e por quê?",
+    "opcoes": [
+      "Topologia em barramento, pois é a mais barata e não precisa de equipamentos adicionais.",
+      "Topologia em anel, pois todos os computadores compartilham igualmente o acesso à rede.",
+      "Topologia em estrela (ou estrela estendida), pois facilita expansão, manutenção e oferece maior confiabilidade com switches em cada andar.",
+      "Topologia ponto a ponto, pois conecta diretamente todos os computadores entre si."
+    ],
+    "resposta": "Topologia em estrela (ou estrela estendida), pois facilita expansão, manutenção e oferece maior confiabilidade com switches em cada andar."
+  },
+  {
+    "tipo": "Tópico 2: Topologias Físicas e Lógicas",
+    "pergunta": "Explique o que significa topologia de rede e qual a diferença entre topologia física e topologia lógica.",
+    "opcoes": [
+      "Topologia de rede é a forma como os dados são criptografados. Física é sobre segurança e lógica sobre velocidade.",
+      "Topologia de rede é a forma de organização dos dispositivos. Física refere-se à disposição real dos cabos e equipamentos, enquanto lógica refere-se ao fluxo de dados na rede.",
+      "Topologia de rede refere-se apenas ao tipo de cabo utilizado, sem relação com a comunicação.",
+      "Topologia lógica é a disposição física dos cabos, enquanto a física é o caminho dos dados."
+    ],
+    "resposta": "Topologia de rede é a forma de organização dos dispositivos. Física refere-se à disposição real dos cabos e equipamentos, enquanto lógica refere-se ao fluxo de dados na rede."
+  },
+  {
+    "tipo": "Tópico 2: Topologias Físicas e Lógicas",
+    "pergunta": "Compare as vantagens e desvantagens das topologias em estrela, barramento e malha. Em quais situações cada uma seria mais adequada?",
+    "opcoes": [
+      "Estrela é fácil de expandir e gerenciar, mas depende de um ponto central; barramento é barato porém pouco confiável; malha é altamente confiável, porém cara e complexa. Cada uma é usada conforme custo, escala e necessidade de confiabilidade.",
+      "Todas as topologias possuem o mesmo custo e desempenho, variando apenas no formato visual.",
+      "Barramento é o mais confiável e caro, estrela é a mais barata e malha não é utilizada na prática.",
+      "Malha é a mais simples, estrela é a mais complexa e barramento é usado apenas em redes sem fio."
+    ],
+    "resposta": "Estrela é fácil de expandir e gerenciar, mas depende de um ponto central; barramento é barato porém pouco confiável; malha é altamente confiável, porém cara e complexa. Cada uma é usada conforme custo, escala e necessidade de confiabilidade."
+  },
+  {
+    "tipo": "Tópico 2: Topologias Físicas e Lógicas",
+    "pergunta": "Em uma empresa com 100 funcionários, distribuídos em três andares, qual topologia de rede você recomendaria e por quê?",
+    "opcoes": [
+      "Topologia em estrela hierárquica (estrela estendida), pois permite organização por andares, facilita manutenção e expansão.",
+      "Topologia em barramento, pois utiliza menos cabos e atende melhor grandes empresas.",
+      "Topologia em anel, pois evita qualquer falha de comunicação.",
+      "Topologia em malha completa, pois todos os dispositivos se conectam diretamente sem custo elevado."
+    ],
+    "resposta": "Topologia em estrela hierárquica (estrela estendida), pois permite organização por andares, facilita manutenção e expansão."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "O que é encapsulamento e desencapsulamento?",
+    "opcoes": [
+      "Encapsulamento é quando os dados sobem pelas camadas sem alteração.",
+      "Encapsulamento é o processo de adicionar informações de controle (headers/trailers) aos dados ao descer pelas camadas; desencapsulamento é a remoção dessas informações ao subir pelas camadas.",
+      "Encapsulamento é a criptografia dos dados e desencapsulamento é a descriptografia.",
+      "Encapsulamento ocorre apenas na camada física."
+    ],
+    "resposta": "Encapsulamento é o processo de adicionar informações de controle (headers/trailers) aos dados ao descer pelas camadas; desencapsulamento é a remoção dessas informações ao subir pelas camadas."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Quando os bits são transmitidos da camada física para a camada de enlace no modelo OSI, o que ocorre?",
+    "opcoes": [
+      "Encapsulamento.",
+      "Desencapsulamento.",
+      "Apenas a entrega dos bits à camada de enlace, sem encapsulamento ou desencapsulamento.",
+      "Criptografia dos dados."
+    ],
+    "resposta": "Apenas a entrega dos bits à camada de enlace, sem encapsulamento ou desencapsulamento."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Cite três tarefas que a camada física é capaz de executar. Qual o principal equipamento que opera na camada 1?",
+    "opcoes": [
+      "Endereçamento IP, roteamento e controle de congestionamento; equipamento: roteador.",
+      "Transmissão de bits, definição de sinais elétricos/ópticos e taxa de transmissão; equipamento: hub (ou repetidor).",
+      "Controle de sessão, autenticação e compressão; equipamento: firewall.",
+      "Criação de pacotes, verificação de erros e retransmissão; equipamento: switch."
+    ],
+    "resposta": "Transmissão de bits, definição de sinais elétricos/ópticos e taxa de transmissão; equipamento: hub (ou repetidor)."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Por que podemos dizer que as camadas do modelo OSI são independentes entre si?",
+    "opcoes": [
+      "Porque cada camada pode ser modificada sem afetar as demais, desde que mantenha suas interfaces.",
+      "Porque todas executam exatamente a mesma função.",
+      "Porque apenas a camada de aplicação é relevante.",
+      "Porque não existe comunicação entre as camadas."
+    ],
+    "resposta": "Porque cada camada pode ser modificada sem afetar as demais, desde que mantenha suas interfaces."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Cite três tarefas que a camada de transporte é capaz de executar.",
+    "opcoes": [
+      "Controle de fluxo, controle de erro e segmentação de dados.",
+      "Roteamento, endereçamento IP e fragmentação.",
+      "Conversão de sinais elétricos e transmissão de bits.",
+      "Gerenciamento de sessão, autenticação e criptografia."
+    ],
+    "resposta": "Controle de fluxo, controle de erro e segmentação de dados."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Em termos de camadas, qual a diferença entre o modelo OSI e o modelo TCP/IP?",
+    "opcoes": [
+      "OSI possui 7 camadas e TCP/IP possui 4 (ou 5), com algumas camadas agrupadas.",
+      "OSI possui menos camadas que o TCP/IP.",
+      "Ambos possuem exatamente o mesmo número de camadas.",
+      "TCP/IP possui 10 camadas e OSI possui 7."
+    ],
+    "resposta": "OSI possui 7 camadas e TCP/IP possui 4 (ou 5), com algumas camadas agrupadas."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Cite a principal tarefa da camada de rede. Quais os principais equipamentos que operam na camada 3?",
+    "opcoes": [
+      "Encapsulamento de quadros; equipamento: switch.",
+      "Transmissão de bits; equipamento: hub.",
+      "Roteamento de pacotes entre redes diferentes; equipamento: roteador.",
+      "Controle de sessão; equipamento: firewall."
+    ],
+    "resposta": "Roteamento de pacotes entre redes diferentes; equipamento: roteador."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Quando a mensagem da camada de redes é repassada para a camada de enlace, o que ocorre?",
+    "opcoes": [
+      "Compressão.",
+      "Encapsulamento.",
+      "Desencapsulamento.",
+      "Criptografia."
+    ],
+    "resposta": "Encapsulamento."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Quais as diferenças entre o endereçamento físico e o endereçamento lógico?",
+    "opcoes": [
+      "Endereço físico é o IP e lógico é o MAC.",
+      "Endereço físico (MAC) é fixo e associado ao hardware; endereço lógico (IP) é configurável e usado para identificação na rede.",
+      "Ambos são iguais e usados da mesma forma.",
+      "Endereço lógico é permanente e físico é temporário."
+    ],
+    "resposta": "Endereço físico (MAC) é fixo e associado ao hardware; endereço lógico (IP) é configurável e usado para identificação na rede."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Liste em ordem decrescente as 7 camadas do modelo OSI.",
+    "opcoes": [
+      "Aplicação, Apresentação, Sessão, Transporte, Rede, Enlace, Física.",
+      "Física, Enlace, Rede, Transporte, Sessão, Apresentação, Aplicação.",
+      "Aplicação, Transporte, Rede, Enlace, Física.",
+      "Sessão, Aplicação, Transporte, Física, Rede, Enlace, Apresentação."
+    ],
+    "resposta": "Aplicação, Apresentação, Sessão, Transporte, Rede, Enlace, Física."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "O que é o trailer da camada de enlace?",
+    "opcoes": [
+      "Parte inicial do pacote que contém o endereço IP.",
+      "Informação adicionada ao final do quadro, geralmente para verificação de erros (como FCS).",
+      "Um tipo de protocolo de aplicação.",
+      "Um endereço físico do dispositivo."
+    ],
+    "resposta": "Informação adicionada ao final do quadro, geralmente para verificação de erros (como FCS)."
+  },
+  {
+    "tipo": "Tópico 3: Modelo OSI e TCP/IP",
+    "pergunta": "Cite dois exemplos de tecnologias ou protocolos que operam em cada uma das camadas solicitadas.",
+    "opcoes": [
+      "Física: HTTP/DNS; Enlace: TCP/UDP; Rede: Ethernet/Wi-Fi; Transporte: IP/ICMP; Aplicação: ARP/RARP.",
+      "Física: Ethernet PHY/DSL; Enlace: Ethernet/Wi-Fi; Rede: IP/ICMP; Transporte: TCP/UDP; Aplicação: HTTP/FTP.",
+      "Física: IP/ICMP; Enlace: HTTP/FTP; Rede: TCP/UDP; Transporte: Ethernet/Wi-Fi; Aplicação: cabos.",
+      "Todas as camadas usam os mesmos protocolos."
+    ],
+    "resposta": "Física: Ethernet PHY/DSL; Enlace: Ethernet/Wi-Fi; Rede: IP/ICMP; Transporte: TCP/UDP; Aplicação: HTTP/FTP."
   }
 ]
