@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && node scripts/deploy-docs.cjs"
   },
   "dependencies": {
     "react": "^19.2.0",

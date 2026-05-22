@@ -75,7 +75,7 @@ Dentro de `projeto_react`:
 - `npm run build`: gera a versao de producao em `dist`.
 - `npm run preview`: abre uma previa local do build.
 - `npm run lint`: roda o ESLint.
-- `npm run deploy`: publica o conteudo de `dist` na branch `gh-pages`.
+- `npm run deploy`: publica o build em `docs` na branch `gh-pages`.
 
 ## Dados do quiz
 
@@ -103,14 +103,14 @@ Cada item segue o formato:
 
 ## Deploy
 
-O deploy e feito com `gh-pages`:
+O deploy e feito com `gh-pages`, publicando a pasta `docs` na branch `gh-pages`:
 
 ```bash
 cd projeto_react
 npm run deploy
 ```
 
-O Vite usa `base: "/entre_paginas_quiz/"`, configurado em `projeto_react/vite.config.js`, para que os assets funcionem corretamente no GitHub Pages.
+O Vite usa `base: "/entre_paginas_quiz/"`, configurado em `projeto_react/vite.config.js`, para que os assets funcionem corretamente no GitHub Pages. Nas configuracoes do GitHub Pages, use a branch `gh-pages` com a pasta `/docs`.
 
 ## Autor
 

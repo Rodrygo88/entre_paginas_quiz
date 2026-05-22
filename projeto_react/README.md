@@ -22,4 +22,6 @@ npm run build
 npm run deploy
 ```
 
+O deploy publica a pasta `docs` na branch `gh-pages`, combinando com a configuracao do GitHub Pages.
+
 As perguntas ficam em `public/data/perguntas.json`.
