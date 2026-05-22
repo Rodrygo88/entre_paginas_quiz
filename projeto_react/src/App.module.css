@@ -70,6 +70,21 @@ svg {
   width: 100%;
 }
 
+.reiniciar {
+  background-color: transparent;
+  border: 1px solid var(--cor-opcoes);
+  border-radius: var(--raio-borda);
+  color: var(--cor-texto-base);
+  font-family: var(--fonte-base);
+  font-size: 0.9rem;
+  padding: 0.45rem 0.9rem;
+}
+
+.reiniciar:hover {
+  border-color: var(--cor-texto-acerto);
+  color: var(--cor-texto-acerto);
+}
+
 .info {
   font-size: 0.5rem;
 }

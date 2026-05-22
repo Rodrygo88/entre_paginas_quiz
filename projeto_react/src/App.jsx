@@ -61,6 +61,10 @@ function App() {
     setEstilos(novos_estilos);
   }
 
+  function reiniciarPagina() {
+    window.location.reload();
+  }
+
   return (
     <>
       <div className={styles.main}>
@@ -78,6 +82,10 @@ function App() {
           resultado_func={ativarOpcoes ? resultado : null}
           resultado={acertou}
         />
+
+        <button className={styles.reiniciar} onClick={reiniciarPagina}>
+          Nova pergunta
+        </button>
 
         <p className={styles.info}>
           Em desenvolvimento por Rodrigo Silva © 2026
